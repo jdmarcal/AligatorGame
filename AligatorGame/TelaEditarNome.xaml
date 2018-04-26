@@ -1,0 +1,16 @@
+﻿<Window x:Class="AligatorGame.TelaEditarNome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AligatorGame"
+        mc:Ignorable="d"
+        Title="Editar nome" Height="178.345" Width="331.897" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Name="LblNomeAtual" Content="Seu nome atual é: jubileu" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblNomeAtual_Copy" Content="Informe o novo nome:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TxtNovoNome" HorizontalAlignment="Left" Height="23" Margin="10,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="306"/>
+        <Button Name="BtnEditar" Content="Editar" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="306" Click="BtnEditar_Click"/>
+
+    </Grid>
+</Window>
